@@ -1,0 +1,34 @@
+.content-container.widthwise {
+  
+
+
+  .content.widthwise {
+    .content-section {
+      margin-bottom: 32px;
+
+      .section-header {
+        margin-bottom: 16px;
+      }
+
+      &.i-0 {
+        .media-list {
+          min-height: 260px;
+          max-height: 260px;
+          overflow: scroll;
+          gap: 16px 0;
+        }
+      }
+      &.i-1 {
+        .media-list {
+          width: 100vw;
+          overflow: hidden;
+          .content-image {
+            &:not(:last-child) {
+              margin-right: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

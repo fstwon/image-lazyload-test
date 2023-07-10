@@ -1,0 +1,31 @@
+.app {
+  width: 100%;
+
+  .app-header {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    .header-title {
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.co-layout {
+  width: calc(100% - 32px);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nav-link-layout {
+  margin-right: 16px;
+}
+
+.flex {
+  display: flex;
+  &.wrap {
+    flex-wrap: wrap;
+  }
+  &.justify-content-sb {
+    justify-content: space-between;
+  }
+}
